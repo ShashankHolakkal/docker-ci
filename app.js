@@ -7,7 +7,7 @@ var express = require('express'),
 var http = require('http');
 
 app.get('/', function (req, res) {
-    res.send('Hello World Docker CI!');
+    res.send('Hello World Docker CI With Everything Set Up!');
 });
 
 app.listen(8080);
